@@ -1,0 +1,21 @@
+Section,Variable_1,Variable_2,n,Statistic,Value,p,BH_FDR_q,Median_High_AI,Median_Low_AI,Rank_biserial,Notes
+Descriptive,AI adoption (%),,25,Mean,15.8856,,,,,,SD=7.9542; Median=13.89; Min=4.42; Max=32.91
+Descriptive,AI conference publications,,36,Mean,713.5833,,,,,,SD=1456.9365; Median=219; Min=7; Max=8513
+Descriptive,AI patent grants,,31,Mean,848.3226,,,,,,SD=2655.0150; Median=27; Min=1; Max=12764
+Descriptive,AI Capacity Index,,34,Mean,0.047494,,,,,,SD=0.859492; Median=0.011517; Min=-1.350411; Max=2.374549
+Descriptive,Carbon intensity (gCO2/kWh),,38,Mean,236.9737,,,,,,SD=168.5665; Median=201; Min=25; Max=608
+Descriptive,Renewable electricity (%),,38,Mean,54.7442,,,,,,SD=26.3007; Median=53.245; Min=9.71; Max=100
+Descriptive,Energy intensity,,38,Mean,3.233947,,,,,,SD=1.793253; Median=2.94; Min=0.97; Max=11.93
+Descriptive,Environmental Sustainability Index,,38,Mean,0.000000,,,,,,SD=0.673569; Median=0.040468; Min=-1.273502; Max=1.237822
+Correlation,AI_Adoption_2024,Environmental_Sustainability_Index,25,Spearman rho,0.250769,0.226628,0.692439,,,,
+Correlation,AI_Conference_Pubs_2024,Environmental_Sustainability_Index,36,Spearman rho,-0.211326,0.216000,0.692439,,,,
+Correlation,AI_Patents_2024,Environmental_Sustainability_Index,31,Spearman rho,-0.123512,0.507993,0.707431,,,,
+Correlation,AI_Capacity_Index,Carbon_Intensity_2024,34,Spearman rho,0.021088,0.905769,0.981082,,,,
+Correlation,AI_Capacity_Index,Renewable_pct_2024,34,Spearman rho,-0.141951,0.423237,0.707431,,,,
+Correlation,AI_Capacity_Index,Energy_Intensity_2022,34,Spearman rho,0.092007,0.604793,0.744361,,,,
+Correlation,AI_Capacity_Index,Environmental_Sustainability_Index,34,Spearman rho,-0.111383,0.530574,0.707431,,,,
+Group comparison,Environmental_Sustainability_Index,High vs Low AI,34,Mann-Whitney U,145,1.000000,,0.052365,-0.116466,0.003460,
+Group comparison,Carbon_Intensity_2024,High vs Low AI,34,Mann-Whitney U,127.5,0.569760,,185,261,-0.117647,
+Group comparison,Renewable_pct_2024,High vs Low AI,34,Mann-Whitney U,145,1.000000,,50.74,49.23,0.003460,
+Group comparison,Energy_Intensity_2022,High vs Low AI,34,Mann-Whitney U,160.5,0.593315,,2.83,3.00,0.110727,
+RQ4,AI CAGR vs Decarbonization,,24,Spearman rho,-0.273043,0.196731,,,,,Positive gap countries=15; Negative gap countries=9
