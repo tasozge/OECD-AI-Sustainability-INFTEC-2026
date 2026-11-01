@@ -9,8 +9,7 @@ Prepared for the **3rd International Congress on Data Science and Information Te
 ## Authors
 
 - Özge Taş
-- Rabia Yumuşak
-
+-İsmail Öylek
 ## Study scope
 
 The study evaluates the relationship between artificial intelligence capacity and environmental sustainability across **38 OECD member countries**. The analytical framework combines AI adoption, scientific output, technological innovation, electricity-sector carbon intensity, renewable electricity share, and energy intensity.
