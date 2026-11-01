@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, derived indicators, or analytical framework, please cite this repository and the associated INFTEC 2026 study."
+title: "Artificial Intelligence Capacity and Environmental Sustainability in OECD Countries: Dataset and Derived Indicators"
+type: dataset
+authors:
+  - family-names: "Taş"
+    given-names: "Özge"
+  - family-names: "Yumuşak"
+    given-names: "Rabia"
+year: 2026
+repository-code: "https://github.com/tasozge/OECD-AI-Sustainability-INFTEC-2026"
+keywords:
+  - artificial intelligence
+  - environmental sustainability
+  - OECD
+  - renewable electricity
+  - carbon intensity
+  - decarbonization
+  - AI capacity index
